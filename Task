@@ -1,0 +1,34 @@
+public class FirstTask {
+    public static void main(String[] args) {
+        int x = 1;
+        System.out.println("Число x в кубе = " + Math.pow(x, 3));
+    }
+}
+public class TaskTwo {
+    public static void main(String[] args) {
+        int i = 13;
+        System.out.println((i % 10 == 3) ? "Последняя цифра числа i - это 3." : "Последняя цифра числа i - это НЕ 3.");
+    }
+}
+public class TaskTree {
+    public static void main(String[] args) {
+        int barrel = 70;
+        int bucket = 10;
+        System.out.println((barrel - bucket * 5) / 4 + " литров воды в каждой лейке ");
+    }
+}
+public class TaskFour {
+    public static void main(String[] args) {
+        int length = 7;
+        int width = 8;
+        System.out.println(" Площадь = " + length * width + " Периметр = " + (length + width) * 2);
+    }
+}
+public class TaskFive {
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        System.out.printf(" переменная a =" + b +", а переменная b = " + a +"");
+
+    }
+}
