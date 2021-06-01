@@ -7,7 +7,7 @@ public class FirstTask {
 public class TaskTwo {
     public static void main(String[] args) {
         int i = 13;
-        System.out.println((i % 10 == 3) ? "Последняя цифра числа i - это 3." : "Последняя цифра числа i - это НЕ 3.");
+        System.out.println((i % 10 == 3) ? "Последняя цифра числа i - это 3." : "Последняя цифра числа i - это не 3.");
     }
 }
 public class TaskTree {
